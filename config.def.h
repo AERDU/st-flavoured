@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hasklig Black:pixelsize=14:antialias=true:hintstyle=hintfull:lcdfilter=lcddefault:rgba=rgb";
+static char *font = "Hasklig Black:pixelsize=9:antialias=true:hintstyle=hintfull:lcdfilter=lcddefault:rgba=rgb";
 static int borderpx = 2;
 
 /*
@@ -19,8 +19,9 @@ MonitorConfig monitors_config[] = {
 	// {"DP-1", 0}, // BUG:(size=0): not restored to default after back'n'forth
 	// {"HDMI-0~1", -20},  // BUG:(ignored DPI=220): = 20 is eqv to 10pt (DPI=110)
 	// {"HDMI-0~2", -14},
-	{"DP-4", 14},
-	{"DP-2", 9},
+	//{"HDMI-0", 17},
+	//{"DP-4", 14},
+	//{"DP-2", },
 };
 float winmovethreshold = 0.6;
 

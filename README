@@ -13,11 +13,12 @@ Installation
 Edit config.mk to match your local setup (st is installed into
 the /usr/local namespace by default).
 
+Configuring a font at config.h is heavily recommended. You can auto-scale font siz, depending on your monitors DPI at MonitorConfig.
+
 Afterwards enter the following command to build and install st (if
 necessary as root):
 
     make clean install
-
 
 Running st
 ----------
